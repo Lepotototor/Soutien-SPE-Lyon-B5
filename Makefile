@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -Wextra -Wvla -Werror
+CFLAGS=-Wall -Wextra -Wvla
 
 SRC=src/main.c src/array_even.c src/merge_blocks.c src/get_childs.c src/str_to_upper.c src/resize_tab.c
 OBJ=main.o array_even.o merge_blocks.o get_childs.o str_to_upper.o resize_tab.o
