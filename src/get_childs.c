@@ -27,4 +27,7 @@
 */
 
 int *get_childs(size_t n)
-{}
+{
+    (void)n;
+    return NULL;
+}

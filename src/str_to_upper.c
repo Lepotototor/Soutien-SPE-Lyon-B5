@@ -23,4 +23,7 @@
 */
 
 char *str_to_upper(const char *s)
-{}
+{
+    (void)s;
+    return NULL;
+}

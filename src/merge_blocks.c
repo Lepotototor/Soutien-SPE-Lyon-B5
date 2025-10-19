@@ -19,4 +19,10 @@
 */
 
 void *merge_blocks(void *b1, size_t s1, void *b2, size_t s2)
-{}
+{
+    (void)b1;
+    (void)b2;
+    (void)s1;
+    (void)s2;
+    return NULL;
+}

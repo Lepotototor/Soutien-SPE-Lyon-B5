@@ -19,4 +19,9 @@
 */
 
 size_t array_even(const int *arr, size_t len, int **result)
-{}
+{
+    (void)arr;
+    (void)len;
+    (void)result;
+    return 0;
+}

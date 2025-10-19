@@ -24,7 +24,11 @@
 */
 
 struct tab *resize_tab(struct tab *tab, size_t new_size)
-{}
+{
+    (void)tab;
+    (void)new_size;
+    return tab;
+}
 
 /*
     Same as previous but you can't modify the struct
@@ -45,4 +49,8 @@ struct tab *resize_tab(struct tab *tab, size_t new_size)
 */
 
 struct tab *sub_tab(const struct tab *tab, size_t new_size)
-{}
+{
+    (void)tab;
+    (void)new_size;
+    return NULL;
+}
